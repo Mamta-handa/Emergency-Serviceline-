@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_indian_flag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="70dp">
+
+        <!-- Emergency Services (GREEN HIGHLIGHT) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Services"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#00FF00"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:shadowColor="#00FF00"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10" />
+
+        <!-- My Profile -->
+        <TextView
+            android:id="@+id/tvProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:layout_gravity="end"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Police -->
+        <LinearLayout
+            android:id="@+id/layoutPolice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#66000000"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/ic_police" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Police (100)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <!-- Fire -->
+        <LinearLayout
+            android:id="@+id/layoutFire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#66000000"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/ic_fire" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire (101)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <!-- Ambulance -->
+        <LinearLayout
+            android:id="@+id/layoutAmbulance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#66000000"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/ic_ambulance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambulance (108)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <!-- Women Safety -->
+        <LinearLayout
+            android:id="@+id/layoutWomen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#66000000"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/ic_safety" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women Safety (181)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <!-- State Wise -->
+        <LinearLayout
+            android:id="@+id/layoutState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#88000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State Wise Emergency Numbers"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

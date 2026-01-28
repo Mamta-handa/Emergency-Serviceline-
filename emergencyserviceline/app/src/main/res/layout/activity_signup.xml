@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_indian_flag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="120dp">
+
+        <!-- Heading BLUE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- All fields BLUE -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"
+            android:text="India"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="10dp" />
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="#1565C0" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="#1565C0" />
+        </RadioGroup>
+
+        <!-- Button BLUE -->
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

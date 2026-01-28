@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_indian_flag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- APP LOGO IMAGE (KEPT) -->
+        <ImageView
+            android:id="@+id/imgAppLogo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_safety"
+            android:contentDescription="App Logo"
+            android:layout_marginBottom="16dp" />
+
+        <!-- APP TITLE (GREEN HIGHLIGHT) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Serviceline"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:shadowColor="#00FF00"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10" />
+
+        <!-- EMAIL -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9" />
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#1565C0"
+            android:textColorHint="#90CAF9"
+            android:layout_marginTop="12dp" />
+
+        <!-- LOGIN BUTTON (GREEN HIGHLIGHT) -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C853"
+            android:layout_marginTop="20dp"
+            android:shadowColor="#00C853"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8" />
+
+        <!-- SIGN UP -->
+        <TextView
+            android:id="@+id/tvSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREATE ACCOUNT!!!!"
+            android:textColor="#1565C0"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp" />
+
+        <!-- ADMIN LOGIN (BIG + HIGHLIGHT) -->
+        <TextView
+            android:id="@+id/tvAdminLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN LOGIN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:shadowColor="#00E676"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8" />
+
+    </LinearLayout>
+
+</ScrollView>
